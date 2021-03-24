@@ -1,8 +1,12 @@
 
-<div *ngFor = "let product of products">
-  <h1>{{ product.name }}</h1>
-  <img src = "{{ product.picture }}"/>
-  <h1>{{ product.price | currency:'BRL'}}</h1>
-  <h3>{{ product.description }}</h3>
-  <button>Comprar!</button>
-</div>
+<section class="flex-container" id="secProducts">
+  <div class="row" *ngFor = "let product of products">
+    <h1>{{ product.name }}</h1>
+    <div class="column">
+      <img src = "{{ product.picture }}"/>
+    </div>
+    <h1>{{ product.price | currency:'BRL'}}</h1>
+    <h3>{{ product.description }}</h3>
+    <button>Comprar!</button>
+  </div>
+</section> <br><br>

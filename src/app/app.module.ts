@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { AdminComponent } from './admin/admin.component';
 import { MaintenanceComponent } from './maintenance/maintenance.component';
+import { CartComponent } from './cart/cart.component';
 
 @NgModule({
   declarations: [						
@@ -29,7 +30,8 @@ import { MaintenanceComponent } from './maintenance/maintenance.component';
       ContatoComponent,
       ProductsComponent,
       AdminComponent,
-      MaintenanceComponent
+      MaintenanceComponent,
+      CartComponent
    ],
   imports: [
     BrowserModule,

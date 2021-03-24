@@ -22,12 +22,12 @@ export const products = [
         description: 'Celular fabricado pela Motorola',
         picture: '../assets/img/portfolio/3.jpg'
     },
-    {
-        id: 4,
-        name: 'Liquidificador',
-        price: 99,
-        description: 'Liquidificador fabricado pela Mondial',
-        picture: '../assets/img/portfolio/4.jpg'
+    // {
+    //     id: 4,
+    //     name: 'Liquidificador',
+    //     price: 99,
+    //     description: 'Liquidificador fabricado pela Mondial',
+    //     picture: '../assets/img/portfolio/4.jpg'
       
-    }
+    // }
 ];
