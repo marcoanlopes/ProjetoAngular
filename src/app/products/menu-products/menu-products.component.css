@@ -1,0 +1,10 @@
+.container{
+    display: inline-table;
+    margin-left: 400px;  
+    text-align: center; 
+}
+
+#controlerSubmenu{
+    background-color: black;
+    width: 1583px;
+}

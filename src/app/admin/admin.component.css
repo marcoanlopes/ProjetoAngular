@@ -6,6 +6,7 @@ html {
     padding:0;
     font-family: sans-serif;
     background: linear-gradient(white, white);
+    width: 200%;
   }
   
   .login-box {

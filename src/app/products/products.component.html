@@ -1,12 +1,12 @@
 
+
 <section class="flex-container" id="secProducts">
+  <app-menu-products></app-menu-products>
   <div class="row" *ngFor = "let product of products">
     <h1>{{ product.name }}</h1>
-    <div class="column">
-      <img src = "{{ product.picture }}"/>
-    </div>
+      <img width="500" height="300" src = "{{ product.picture }}"/>
     <h1>{{ product.price | currency:'BRL'}}</h1>
-    <h3>{{ product.description }}</h3>
-    <button>Comprar!</button>
+    <h3 id="descricao">{{ product.description }}</h3>
+    <button class="btnComprar">Comprar!</button>
   </div>
-</section> <br><br>
+</section>
