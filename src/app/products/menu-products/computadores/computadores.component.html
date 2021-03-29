@@ -1,0 +1,11 @@
+
+<section class="flex-container" id="secProducts">
+    <app-menu-products></app-menu-products>
+    <div class="row" *ngFor = "let product of products">
+      <h1 *ngIf ="product.classificacao == 'computadores'" >{{ product.name }}</h1>
+      <img *ngIf ="product.classificacao == 'computadores'" width="500" height="300" src = "{{ product.picture }}"/>
+      <h1 *ngIf ="product.classificacao == 'computadores'">{{ product.price | currency:'BRL'}}</h1>
+      <h3 *ngIf ="product.classificacao == 'computadores'"id="descricao">{{ product.description }}</h3>
+      <button *ngIf ="product.classificacao == 'computadores'"class="btnComprar">Comprar!</button>
+    </div>
+</section>

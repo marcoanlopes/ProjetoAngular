@@ -20,6 +20,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminComponent } from './admin/admin.component';
 import { MaintenanceComponent } from './maintenance/maintenance.component';
 import { CartComponent } from './cart/cart.component';
+import { MenuProductsComponent } from './products/menu-products/menu-products.component';
+import { CelularesComponent } from './products/menu-products/celulares/celulares.component';
+import { TabletsComponent } from './products/menu-products/tablets/tablets.component';
+import { ComputadoresComponent } from './products/menu-products/computadores/computadores.component';
+import { EletrodomesticosComponent } from './products/menu-products/eletrodomesticos/eletrodomesticos.component';
 
 @NgModule({
   declarations: [						
@@ -31,7 +36,12 @@ import { CartComponent } from './cart/cart.component';
       ProductsComponent,
       AdminComponent,
       MaintenanceComponent,
-      CartComponent
+      CartComponent,
+      MenuProductsComponent,
+      CelularesComponent,
+      TabletsComponent,
+      ComputadoresComponent,
+      EletrodomesticosComponent
    ],
   imports: [
     BrowserModule,
