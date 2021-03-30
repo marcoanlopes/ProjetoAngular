@@ -1,10 +1,10 @@
-<section class="flex-container" id="secProducts">
-    <app-menu-products></app-menu-products>
+<app-menu-products></app-menu-products>
+<section class="flex-container">
     <div class="row" *ngFor = "let product of products">
       <h1 *ngIf ="product.classificacao == 'eletrodomesticos'" >{{ product.name }}</h1>
-      <img *ngIf ="product.classificacao == 'eletrodomesticos'" width="500" height="300" src = "{{ product.picture }}"/>
+      <img *ngIf ="product.classificacao == 'eletrodomesticos'" src = "{{ product.picture }}" width="400" height="300"/>
       <h1 *ngIf ="product.classificacao == 'eletrodomesticos'">{{ product.price | currency:'BRL'}}</h1>
-      <h3 *ngIf ="product.classificacao == 'eletrodomesticos'"id="descricao">{{ product.description }}</h3>
-      <button *ngIf ="product.classificacao == 'eletrodomesticos'"class="btnComprar">Comprar!</button>
+      <h3 *ngIf ="product.classificacao == 'eletrodomesticos'"id="descricao" class="col-md-12">{{ product.description }}</h3>
+      <button *ngIf ="product.classificacao == 'eletrodomesticos'"class="btn btn-success">Comprar!</button>
     </div>
-</section>
+</section>  

@@ -61,7 +61,7 @@ export const products = [
             id: 8,
             name: 'Notebook Gamer Legion',
             price: 3900,
-            description: 'Notebook Legion i7-10750H 16GB 512GB SSD RTX2060 6GB W10 15.6” Full HD - Lenovo',
+            description: 'Legion i7-10750H 16GB 512GB SSD RTX2060 6GB Full HD',
             picture: '../assets/img/portfolio/computador2.jpg'
         },
         {
@@ -69,7 +69,7 @@ export const products = [
             id: 9,
             name: 'Computador Desktop Dell',
             price: 99,
-            description: 'Kit Desktop Dell Intel Core i5 8GB 1TB Windows 10 + Monitor 21”',
+            description: 'Dell Intel Core i5 8GB 1TB Windows 10 + Monitor 21”',
             picture: '../assets/img/portfolio/computador3.jpg'
           
         },
@@ -78,7 +78,7 @@ export const products = [
             id: 10,
             name: 'Computador All in One LG',
             price: 4900,
-            description: 'Computador All in One LG 21.5” FULL HD Windows 10 Home Celeron 4GB RAM e 500GB HD',
+            description: 'LG 21.5” FULL HD Windows 10 Home Celeron 4GB RAM e 500GB HD',
             picture: '../assets/img/portfolio/computador4.jpg'
         },
         {
@@ -86,7 +86,7 @@ export const products = [
             id: 11,
             name: 'Torradeira Lenoxx',
             price: 3900,
-            description: 'Torradeira Lenoxx PTR 203 2 Fatias - 6 Níveis de Tostagem',
+            description: 'Torradeira Lenoxx PTR 203 2 Fatias ',
             picture: '../assets/img/portfolio/torradeira1.jpg'
         },
         {

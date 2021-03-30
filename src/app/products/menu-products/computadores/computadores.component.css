@@ -1,30 +1,14 @@
 .flex-container {
     display: flex;
-    width: 100%;
-    justify-content: left;
+    justify-content: center;
     flex-wrap: wrap;
-    flex-direction:row;
+    flex-direction:inherit;
     align-items: center;
-
-}
-
-
-.btnComprar{
     text-align: center;
-    margin-bottom: 100px;
-}
-#secProducts{
-    text-align: center;
-}
-
-#descricao{
-    /* text-align: center; */
-    margin: 30px;
 
 }
 
 .row{
-    align-items: center;
-    margin-top: 30px;
+    padding-top: 3vw;
+    margin-left: 0.5vw;
 }
-
