@@ -1,12 +1,12 @@
 
 
+<app-menu-products></app-menu-products>
 <section class="flex-container" id="secProducts">
-  <app-menu-products></app-menu-products>
   <div class="row" *ngFor = "let product of products">
     <h1>{{ product.name }}</h1>
-      <img width="500" height="300" src = "{{ product.picture }}"/>
+      <img src = "{{ product.picture }}" width="400" height="300"/>
     <h1>{{ product.price | currency:'BRL'}}</h1>
-    <h3 id="descricao">{{ product.description }}</h3>
-    <button class="btnComprar">Comprar!</button>
+    <h3 id="descricao" class="col-md-12">{{ product.description }}</h3>
+    <button  class="btn btn-success">Comprar!</button>
   </div>
 </section>
